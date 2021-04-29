@@ -1,0 +1,214 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Fake Blog</title>
+    <style>
+    p
+    {
+        text-align: justify;
+        width: 40%;
+    }
+        table{
+            text-align: left;;
+        }
+        td{
+            width: 40%;
+        }
+        table th{
+            background-color:dimgray;
+            color: white;;
+        }
+        tr:nth-child(even)
+        {
+            background: gray;
+        }
+        tr:nth-child(odd) 
+        {
+            background: lightgray;
+        }
+        /*
+        table tr:nth-child(odd).reverse-even-odd,
+        table tr:nth-child(even){
+            background-color:lightgray
+        }   
+        table tr:nth-child(even).reverse-even-odd,
+        table tr:nth-child(odd){
+            background-color:gray;
+            color: lightgray;
+        }
+        */
+    </style>
+</head>
+
+<body>
+	<div id="home">
+        <div class="header">			
+			<h1>Fatima Alheeh</h1>
+			<img src="me.png" alt="my picture" height=180 width=180 />
+			<p><mark>Lorem ipsum</mark> dolor sit amet, consectetur <b>adipiscing</b> <i>elit</i>.
+                Sed quis est auctor, viverra arcu eu, viverra libero. Curabitur tempor erat non lacinia pretium.
+                Pellentesque lacinia vel urna nec pellentesque. Morbi scelerisque nisi vitae bibendum ornare.
+                Quisque facilisis dui lacus, ut auctor velit fringilla a.
+                Vestibulum ut nunc non massa interdum rhoncus.
+                Morbi malesuada nunc ipsum, sit amet convallis nibh facilisis vitae. Aenean vitae lorem erat.
+                Vivamus pulvinar est a fringilla pulvinar.
+
+            </p>
+            
+		</div>
+
+		<div id="main_content">
+			<table>
+				<thead>
+					<tr>
+						<th>Year</th>
+						<th>PPG</th>
+						<th>MVP</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>1990-91</td>
+						<td>31.5</td>
+						<td>Yes</td>
+					</tr>
+					<tr>
+						<td>1991-92</td>
+						<td>30.1</td>
+						<td>Yes</td>
+					</tr>
+					<tr>
+						<td>1992-93</td>
+						<td>32.6</td>
+						<td>No</td>
+					</tr>
+                    <tr>
+						<td>1995-96</td>
+						<td>30.4</td>
+						<td>Yes</td>
+					</tr>
+                    <tr>
+						<td>1996-97</td>
+						<td>29.6</td>
+						<td>No</td>
+					</tr>
+                    <tr>
+						<td>1997-98</td>
+						<td>28.7</td>
+						<td>Yes</td>
+					</tr>
+				</tbody>
+			</table>
+				
+			<ul>
+				<li>1984-1993 Chicago Bulls</li>
+				<li>a1995-1998 Cjcago Bulls</li>
+				<li>2001-2003 Washington Wixards</li>
+			</ul>
+            <a href="#">Click for Awesome Highlight Videos</a>
+			<div id="survey_form">
+				<h3>Please take this short survey</h3>
+				<form action="action.php" method="post">
+				<label for="email">Email</label>
+				<input type="email" name="email_add" id="email" placeholder="Enter email">
+                <br>
+                <input type="radio" id="yessend" name="sendemail" value="yes">
+                <label for="yes">Yes, please send me lots of emails</label>
+                <input type="radio" id="nosend" name="sendemail" value="no">
+                <label for="no">No, please do not send me any emails</label>
+
+					<p>How did you hear about us?</p>
+					<label>
+                        <input type="checkbox" value="facebook">Facebook
+                    </label>
+                    <br>
+                    <label>
+                        <input type="checkbox" value="newspaper">Newspaper
+                    </label>
+                    <br>
+                    <label>
+                        <input type="checkbox" value="referral">Referral
+                    </label>
+                    <br>
+                    <input type="submit" value="Submit" />
+				</form>
+			</div>
+		</div>
+	</div>
+</body>
+<!--
+    <script>
+    // each table cell with rowspan
+$('table tr>*[rowspan]').each(function(){ 
+  // get rowspan attribute
+let rowspan = $(this).attr('rowspan');
+  // cast it to a useful numeric value
+rowspan = (typeof rowspan == 'string' || typeof rowspan == 'number') ? parseInt(rowspan): 1;
+  // if 1 or below, no adjustments are necessary
+if (rowspan > 1) {
+    // row of the affected cell
+    let row = $(this).parent();
+    // all silbing rows including the affected one
+    let rows = row.parent().children();
+    // index of the last potential row to be adjusted
+    let indexlast = row.index()+rowspan-1;
+    // for first row after rowspan to last one affected
+    for (let i = row.index()+1; i<=indexlast; i++) {
+      // if an affected sibling row has not the same modulo 2 index (equals odd and even or even and odd)
+        if (row.index() % 2 != i % 2){
+          // adds a class to reverse the logic
+rows.eq(i).addClass('reverse-even-odd');
+        }
+    }
+    // only even numbered rowspans, to fix coloring on sequent elements
+    if (rowspan % 2 == 0){
+      // inserts a clearing row
+$('<tr class="clear-even-odd"></tr>').insertAfter(rows.eq(indexlast)); //$ better than innerHTML
+    }
+  }
+});
+</script>
+-->
+</html>
+
+<!--<!DOCTYPE html>
+<html lang = "en">
+<head>
+<meta charset="utf-8">
+<title>registration form</title>
+</head>
+<body>
+    <h1>My Registration Form</h1>
+<form action="">
+<label for="email">Email:</label>
+<input type="text" id="email" name="email">
+<br>
+<input type="checkbox" id="facebook" name="hearabout" value="facebook">
+<label for="facebook">facebook</label>
+<input type="checkbox" id="newspaper" name="hearabout" value="newspaper">
+<label for="newspaper">newspaper</label>
+<input type="checkbox" id="referral" name="hearabout" value="referral">
+<label for="referral">referral</label>
+
+<br>
+<label for="description">A short description about yourself</label>
+<br>
+<textarea name="description"></textarea>
+<br>
+
+<label for="language">Favorite Language</label>
+<select name="language">
+<option value="JavaScript">Male</option>
+<option value="HTML">Female</option>
+<option value="CSS">other</option>
+<input type="hidden" name="language" value="7">
+</select>
+
+<br><input type="submit" value="Submit">
+
+
+</form>
+</body>
+</html>
+-->

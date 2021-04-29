@@ -1,0 +1,195 @@
+
+body
+{
+    align-content:space-around;
+    margin: 0px auto;
+    width: 970px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration-skip-ink:unset;
+
+}
+#container
+{
+    margin: 0px;
+    background-color:#265175 ;
+}
+header
+{
+    background-color:#265175 ;
+    color: white;
+    display: flex;
+
+    align-content: center;
+    justify-content: space-between;
+    padding: 5px;
+}
+figure img
+{
+    width: 200px;
+    height: auto;
+}
+a
+{
+    color:#D4B200;
+    padding: 2px;
+    
+}
+header p
+{
+    text-align: right;
+}
+span
+{
+    color: black;
+}
+
+.settings
+{
+  
+    background-color: #444444;
+    padding: 10px;
+    border-radius: 11px;
+    width:300px;
+    height: 40px;
+    line-height: 40px;
+    box-shadow: #1F272D 3px 3px;
+    text-align: center;
+    
+}
+input
+{
+    width: 160px;
+    height: 30px;
+    text-align: center;
+    color: gray;
+}
+button
+{
+    width: 40px;
+    height: 35px;
+    background-color:#265175 ;
+    color: white;
+    border-radius: 3px;
+    border: 2px solid white;
+
+}
+nav
+{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    margin-left: 6%;
+    
+}
+.menu
+{
+    border-radius: 5px;
+    background-color: #467EAB;
+    width: 800px;
+    height: 40px;
+    line-height: 40px;
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    font-size: 24px;
+    list-style-type: none;
+    color: white;
+    box-shadow: #1F272D 3px 3px;
+}
+.content
+{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+.content #zen
+{
+    font-size: 12px;
+}
+aside
+{
+    width: 800px;
+}
+.sidemenu
+{
+    text-align: center  ;
+    list-style-type: none;
+    line-height: 30px;}
+
+.sidemenu a
+{
+    color: white;
+}
+.sidemenu a span
+{
+    color: gold;
+}
+article
+{
+    width: 1600px;
+    margin-right: 70px;
+}
+article p
+{
+    color: white;
+    text-align:center;
+    text-justify:center;
+    
+}
+article h3
+{
+    color:#D4B200;
+    text-align:center;
+    text-justify:center;
+    font-style: italic;
+    font-weight: lighter;
+    
+}
+main 
+{
+    background-color: white;
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-left: 60px;
+}
+main article p
+{
+    color: black;
+}
+main article a
+{
+    color: #8AB5D9;
+}
+main article ul
+{
+    text-align: center;
+}
+h4
+{
+    text-align: center;
+    border-top:5px solid #8AB5D9;;
+}
+footer
+{
+    background-image: linear-gradient(#265175,#3776AB) ;
+    background-color:#265175 ;
+    color: #8AB5D9;
+    text-align: center;
+    padding: 10px;
+}
+footer p
+{
+    font-size: 14px;
+}
+footer .group
+{
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+}
+footer .group p
+{
+    font-size: 20px;
+}

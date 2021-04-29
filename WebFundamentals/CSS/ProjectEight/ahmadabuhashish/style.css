@@ -1,0 +1,177 @@
+
+*{
+    margin:0 auto;
+    padding:0;
+}
+.container{
+    width:920px;
+    height: 520px;
+    background-color: #F1F4F8;
+    display:flex;
+}
+
+
+
+.zero {
+    width:45px;
+    height:45px;
+    color:red;
+    text-align: center;
+    margin:1px;
+    
+}
+.one {
+    width:45px;
+    height:45px;
+    color:red;
+    text-align: center;
+    margin:1px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}.two {
+    width:45px;
+    height:45px;
+    color:red;
+    text-align: center;
+    margin:1px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+   
+
+}.three {
+    width:45px;
+    height:45px;
+    color:red;
+    text-align: center;
+    margin:1px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+}.four {
+    width:45px;
+    height:45px;
+    color:red;
+    text-align: center;
+    margin:1px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+}.five {
+    width:45px;
+    height:45px;
+    color:red;
+    text-align: center;
+    margin:1px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+}.six {
+    width:45px;
+    height:45px;
+    color:red;
+    text-align: center;
+    margin:1px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.seven {
+    width:45px;
+    height:45px;
+    color:red;
+    text-align: center;
+    vertical-align: middle;
+    margin:1px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.eight{
+    margin-top: 20px;
+    width: 45px;
+    height: 45px;
+    margin-right: 1px;
+    margin-left: 1px;
+    margin-bottom: 1px;
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.nine{
+    width: 45px;
+    height: 45px;
+    margin:1px;
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.h{
+    border: 1px solid black;
+   background-color:  #009AC7;
+   width:43px;
+   height: 43px;
+ 
+}
+.sc{
+    border: 1px solid black;
+    background-color:  rgb(253 154 152);
+    width: 43px;
+    height: 43px;
+}
+.he{
+    border: 1px solid black;
+    background-color:  rgb(254 203 0);
+    width: 43px;
+    height: 43px;
+}
+.La{
+    border: 1px solid black;
+    background-color:  rgb(31 202 33);
+    width: 43px;
+    height: 43px;
+    margin:1px;
+}
+p{
+    color: black;
+    font-size: 10px;
+}
+span{
+    color: #201faa;
+    font-weight: bold;
+}
+.column2{
+    margin-right: 15px;
+}
+.bottom{
+    margin-top:20px;
+}
+.bottom{
+ 
+    display:flex;
+}
+.bottom .column{
+    width:45px;
+    height: 45px;
+}
+.final p{
+    color:red;
+    text-align: center;
+    font-size: 15px;
+}
+.column2 .eight p{
+    margin-left:70px;
+    font-size: 15px;
+    color: red;
+}
+.column2 .nine p{
+    margin-left: 60px;
+    font-size: 15px;
+    color: red;
+}

@@ -1,0 +1,116 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+header {
+    margin: 20px;
+    height: 150px;
+    background-color: green;
+
+    display: inline-block;
+    vertical-align: top;
+    margin: 0px 10px;
+
+    width: 100%;
+}
+
+#page {
+    margin: 20px;
+    background-color: silver;
+    padding: 20px;
+}
+
+aside {
+
+    height: 300px;
+    background-color: blue;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0px 10px;
+}
+
+main {
+
+    background-color: red;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#articles {
+    margin: 20px;
+
+}
+
+article {
+    height: 200px;
+    background-color: yellow;
+    margin:10px 10px;
+}
+
+#bottomcontent {
+    margin: 20px;
+}
+
+footer {
+    height: 120px;
+    background-color: purple;
+    margin-top: 20px;
+}
+
+.row {
+    margin: 20px;
+}
+
+.col {
+    display: inline-block;
+    vertical-align: top;
+}
+
+@media only screen and (max-width: 480px) {
+    .sm-0 {
+        display: none;
+    }
+
+    .sm-4 {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 481px) {
+    .med-0 {
+        display: none;
+    }
+
+    .med-2 {
+        width: 45%;
+    }
+
+    .med-4 {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .lg-1 {
+        width: 23%;
+        display: inline-block;
+    }
+
+    .lg-one-third {
+        width: 31%;
+    }
+
+    .lg-3 {
+        width: 72%;
+    }
+
+    .lg-4 {
+        width: 100%;
+    }
+}
+
+

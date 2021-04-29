@@ -1,0 +1,51 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+#wrapper
+{
+    background-color: darkblue;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.center-box
+{
+    
+    height: 90px;
+    width: 90px;
+    background-color: khaki;
+}
+a,h1
+{
+    text-decoration:none;
+    color: white;
+    
+}
+li
+{
+    list-style-type: none;
+}
+#icon
+{
+    width: 60px;
+    height: 50px;
+}
+.center-item
+{
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+nav
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}

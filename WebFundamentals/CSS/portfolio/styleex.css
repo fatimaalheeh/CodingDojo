@@ -1,0 +1,105 @@
+body
+{
+    margin: 0;
+}
+#page
+{
+    background: radial-gradient(#6F5964,#1B0B0F);
+    
+}
+nav
+{
+    background-color: white;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    font-size: 32px;
+    padding: 10px;
+}
+header
+{
+    display:flex;
+    align-content: center;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+figure
+{
+    margin-top: 0px;
+}
+header img
+{
+    width:100%;
+    height: auto    ;
+    border: 10px solid #8D8C98;
+}
+
+header article
+{
+    background-color: white;
+}
+header article p
+{
+    padding: 10px;
+}
+h1,h3
+    {
+    margin: 0px;
+    padding: 10px;
+    background: linear-gradient(#B2B1B5,#878693,#B2B1B5);
+    color: white;
+}
+main
+{
+    display: flex;
+    align-content: center;
+    justify-content:center;
+    
+}
+main article
+{
+    background-color: WHITE;
+    width: 500px;
+    margin: 55px;}
+main article figure
+{
+    height: 340px;
+    width: auto;
+}
+
+main article figure img
+{
+    width: 200px;
+    height: 100px;
+}
+main article img
+{
+    width: 40px;
+    height: 40px;
+}
+
+.appwebsite
+{
+    background-color: #407D61;
+    padding: 10px;
+    width: 120px;
+    border-radius: 10px;
+    margin: auto;
+    text-align: center;
+    color: white;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+footer
+{
+    background-color: white;
+    text-align: center;
+    font-size: 18px;
+    padding-top:10px;
+}
+footer p span img
+{
+    height: 20px;
+    width: 20px;
+    
+}

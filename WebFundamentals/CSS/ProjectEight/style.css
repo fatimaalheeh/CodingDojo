@@ -1,0 +1,224 @@
+body
+{
+    margin: 0px;
+    background-color:#EEEEEE;
+    padding: 10px;
+}
+#container
+{
+    display: flex;
+    align-content: center;
+    justify-content: flex-start;
+    background-color: #EEEEEE;
+    color: crimson;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul
+{
+    padding: 0px;
+    text-align: center;
+}
+li
+{
+    height: 50px;
+    width: 50px;
+    margin: 1px;
+
+}
+
+aside ul
+{
+    list-style-type: none;
+    margin: 1px;
+    
+}
+aside ul li
+{
+    margin-top: 0px;
+    padding: 0px;
+    width: 52px;
+    height: 52px;
+    margin: 1px;
+    line-height: 52px;
+    
+}
+p
+{
+    color: black;
+}
+#gper
+{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    
+}
+#gper p
+{
+    color: crimson;
+    
+}
+aside p
+{
+    height: 52px;
+    width: 52px;
+    text-align: center;
+    line-height: 15 px;
+    margin: 0px;
+    
+}
+nav
+{
+    vertical-align:middle;
+}
+nav ul
+{
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    list-style-type: none;
+    margin: 0px;
+}
+
+main
+{
+    vertical-align: middle;
+}
+.blue
+{
+    background-color: #689BFF;
+    border: 1px solid black;
+}
+.gold
+{
+    background-color: #FECB00;
+    border: 1px solid black;
+}
+.pink
+{
+    background-color: #FD9A98;
+    border: 1px solid black;
+}
+
+.green
+{
+    background-color: #1FCA21;
+    border: 1px solid black;
+}
+#toprow
+{
+    display:flex;
+    flex-direction: row;
+}
+main
+{
+    margin: 0px;
+}
+article
+{
+    display:flex;
+    align-content: center;
+    justify-content: space-between;
+    text-align: center;
+}
+#bottomrow
+{
+    display:flex;
+    align-content: center;
+    justify-content: flex-start;
+    text-align: center;
+
+}
+span
+{
+    /* width: 100px; */
+}
+.star
+{
+    
+    display: flex;
+    align-content: center;
+    
+}
+.star span
+{
+    /* display: inline-block;
+    margin: auto 0px auto 0px;
+     */
+     flex: 1;
+     
+    justify-content: flex-end;
+
+}
+article h1
+{
+    color: #1913A2;
+}
+article ul
+{
+    margin: 0px;
+}
+article p
+{
+    line-height: 0px;
+    font-size: 8px;
+
+}
+article h1
+{
+    line-height: 0px;
+}
+/* article div span
+{
+    
+} */
+#bottomrow
+{
+            display: flex;
+            flex: 1;
+            flex-direction: row;
+            align-content:center;
+            justify-content:space-evenly;
+
+}
+#bottomrow
+{
+
+}
+ol
+{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    margin: 0px;
+    padding: 0px;
+}
+#Lanthanoids
+{
+    margin: 0;
+    line-height: 52px;
+    text-align: left;
+    width:100px;
+}
+#Actinoids
+{
+    margin: 0;
+    line-height: 52px;
+    text-align: left;
+    width:100px;
+}
+.star span
+{
+    width: 50px;
+    text-align: right;
+    line-height: 52px;
+    margin: o;
+}
+
+footer
+{
+    margin-top: 20px;
+    vertical-align: middle;
+}

@@ -1,0 +1,97 @@
+#wrapper
+{
+    background-color: #12355B;
+    width: 970px;
+    height: auto;
+    padding: 10px;
+}
+header
+{
+    background-color: #D72638;
+    color: #BFD7E4;
+    border-radius: 10px;
+    padding: 10px;
+    height: 30px;
+    line-height: 30px;   
+}
+.content
+{
+    display: flex;
+    flex:1 1 10px;
+}
+aside
+{
+    background-color: #087E8B;
+    color: #44DEE5;
+    width: 220px;
+    height: 220px;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    text-decoration: underline;
+}
+
+ul li {
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color:#BFD7E4 ;
+
+}
+ul li ul li  {
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color:#44DEE5 ;
+
+}
+aside a
+{
+    color: #44DEE5;
+}
+main
+{
+    background-color:#0C1821 ;
+    width: 720px;
+    
+    margin-top: 10px;
+    margin-left:10px;
+    border-radius: 10px;
+    height: 600px;
+}
+article
+{
+    padding: 10px;
+}
+p, h1
+{
+    color:#BFD7E4 ;
+}
+article ul
+{
+    color:#BFD7E4 ;
+}
+article ul li
+{
+    list-style-type: none;
+
+}
+article ul li a
+{
+    color: #44DEE5;
+}
+footer
+{
+    background-color: #5C6672;
+    margin-top: 10px;
+    margin-left:10px;
+    padding: 10px;
+    border-radius: 10px;
+    color:#BFD7E4 ;
+    
+}
+footer a
+{
+    color: #44DEE5;
+}
+.emph
+{
+    color: #4786FF;
+
+}

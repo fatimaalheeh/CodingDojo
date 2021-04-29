@@ -1,0 +1,241 @@
+#wrapper
+{
+    width: 960px;
+    margin: 0px auto;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+a
+{
+    text-decoration: none;
+    color: #26669C;
+}
+header
+{
+    background-color: white;
+}
+#top-header
+{
+    
+    line-height: 30px;
+    padding: 10px auto;
+    display: flex;
+     align-items:center;
+    justify-content:left;
+}
+
+header div img
+{
+    width: 90px;
+    margin: 25px 0px 0px 0px;
+    height: auto;
+    position:absolute;
+}
+header div h1
+{
+    position: relative;
+    margin: 50px 0px 0px 90px;
+}
+#bottom-header
+{
+    background: linear-gradient(#28679c, #5484ab,#28679c);
+    color: white;
+    padding: 0px 10px 0px 10px;
+    min-height: 50px;
+    line-height: 50px;
+}
+#centerd-elementas
+{
+    margin: 0px 1px 0px 0px;
+    background: linear-gradient(lightgray 0.2% ,#ffffff 5%);
+    padding: 10px;
+    display: flex;
+    align-content:center;
+    justify-content:space-evenly    ;
+}
+aside
+{
+    width: 580px;
+    vertical-align: middle;
+    padding: 10px;
+
+}
+aside .about h4 span
+{
+    color: crimson;
+}
+
+aside .about
+{
+    display: flex;
+    flex-direction: column;
+}
+aside .about button
+{
+    width: 200px;
+    height:40px;
+    margin: 3px 0px 3px 0px;
+    border-radius: 6px;
+    border: none;
+    color: white;
+    font-size: 18px;
+    box-shadow: gray 2px 2px;
+    
+}
+aside .about  #btnVideo
+{
+    background: linear-gradient(#669AC3, #2C6BA0);
+}
+aside .about  #btnResources
+{
+    background: linear-gradient(#E9AE5F, #EE7403);
+}
+
+hr
+{
+    margin: 30px 0px 30px 0px;
+}
+
+aside .career
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    background-image: url(images/ad_background.png);
+    color: white;
+    font-size: 24px;
+    
+}
+aside .career p
+{
+    margin: 10px auto 0px auto;
+}
+aside .career img
+{
+    width: 90px;
+    margin: 0px auto 10px auto;
+    height: auto;
+}
+#i1
+{
+    color: #DEF0FF;
+}
+#i2
+{
+  color:  #E6F2FC;
+}
+aside .career button
+{
+    width: 180px;
+    height:30px;
+    margin: 3px 0px 30px 0px;
+    border-radius: 6px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    box-shadow: black 2px 2px;
+    background: linear-gradient(#7ED0DE, #05C1DD);
+
+}
+.maincontent nav
+{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+.maincontent nav #nav1
+{
+    align-items: center;
+}
+.maincontent nav #nav2
+{
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.maincontent nav #nav2 p
+{
+    margin: 0px auto 1px 0px;
+    font-size: 13px;
+    
+}
+.maincontent nav #nav2 h1
+{
+    color:#00C0DD;
+    font-size: 32px;
+    font-weight: bolder;
+    margin: 0px auto 0px auto;
+
+}
+.maincontent nav #nav2 img
+{
+    width: 60px;
+    height: 60px;
+    margin: auto 10px;
+    
+}
+.maincontent nav #nav2 #images p
+{
+    line-height: 0px;
+    color: darkslategrey;
+    margin: 10px 0px 0px 30px;
+}
+main article h1
+{
+    color: #26669C;
+}
+main article a
+{
+    color: #0297AD;
+}
+main article span
+{
+    font-weight: bold;
+}
+main article figure
+{
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+}
+main article img
+{
+    width: 400px;
+    height: 130px;
+}
+footer
+{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    border-width: 10px 10px 0px 10px;
+    border-color: #0087DD;
+    border-style: solid;
+}
+footer figure
+{
+    margin: 10px;
+}
+footer figure img
+{
+    height: 100px;
+    width: auto;
+}
+footer h1
+{
+    color: #26669C;
+    font-size: 24px;
+    font-weight: bolder;
+}
+footer a
+{
+    color: #0297AD;
+}
+img
+{
+    width: 20px;
+    height: 20px;
+}

@@ -1,0 +1,1 @@
+select customer.first_name,customer.last_name,customer.email,address.address from customer join address where city_id=312
