@@ -1,0 +1,93 @@
+body {
+    background: rgb(238,174,202);
+background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    color: white;
+    margin: 0;
+    font-family: cursive;
+}
+
+.container {
+    padding: 40px;
+    margin: 10px 60px;
+    border: 30px groove linen;
+    height: 500px;
+    overflow-x:hidden;
+    overflow-y: scroll;
+    
+    background-color: white;
+}
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 28px;
+    background: linear-gradient(270deg, rgba(148,187,233,1) 53.5%,  rgba(238,174,202,1) 45.5%);
+    background-repeat:repeat-x;
+    background-blend-mode: overlay;
+}
+
+#pokemon {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 20px;
+    padding-inline-start: 0;
+    
+}
+
+.card {
+    list-style: none;
+    padding: 40px;
+    background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAHCAYAAADEUlfTAAAAG0lEQVQYV2NMqL7ty4ADMIIkF7SqbsYmP+gkAbAbGgsk/ddhAAAAAElFTkSuQmCC) REPEAT;
+    color: #222;
+    border-radius: 10%;
+    text-align: center;
+    transition: width 2s, height 4s;
+}
+.card:nth-child(even):hover {
+    animation: bounce 0.5s linear;
+    text-align: center;
+    background: peachpuff;
+
+}
+.card:nth-child(odd):hover {
+    animation: bounce 0.5s linear;
+    text-align: center;
+    background:papayawhip;
+
+}
+.card:hover img {
+    width: 300px;
+    height: auto;
+}
+
+.card-title {
+    text-transform: capitalize;
+    margin-bottom: 0px;
+    font-size: 32px;
+    font-weight: normal;
+}
+.card-subtitle {
+    margin-top: 5px;
+    color: #666;
+    font-weight: lighter;
+}
+
+.card-image {
+    height: 180px;
+}
+
+@keyframes bounce {
+    20% {
+        transform: translateY(-6px);
+    }
+    40% {
+        transform: translateY(0px);
+    }
+
+    80% {
+        transform: translateY(-2px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
