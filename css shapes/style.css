@@ -1,0 +1,72 @@
+body
+{
+    background: tomato;
+}
+div
+{
+    height: 400px;
+    width: 400px;background-color: white;
+    border-radius: 50%;
+    position: relative;
+    box-shadow: inset -8px 0px #1c2124, 46px 0 0 -10px black, 46px 0 #1c2124;
+    margin: 250px auto
+}
+div ::after
+{
+    content: "";
+    position: absolute;
+    height: 14px;
+    width: 14px;
+    background: black;
+    border-radius: 50px;
+    top: 14px;
+    left: 14px;
+    
+}
+
+div::before
+{
+    content: "";
+    position: absolute;
+    height: 120px;
+    width: 180px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    border: 30px solid white;
+    border-bottom:none;
+    top: -40px;
+    left: 110px;
+    
+}
+
+
+
+
+span
+{
+    height: 340px;
+    width: 300px;background-color:#331804;
+    border-radius: 50%;
+    position: absolute;
+    box-shadow: inset -8px 0px #331804;
+    top: 280px;
+    left: 840px;
+    box-shadow: inset 10px -20px #FAEBD7, -10px 0px #FAEBD7, 10px 0px #FAEBD7;
+}
+
+
+span::before
+{
+    content: "";
+    position: absolute;
+    background-color: white;
+    height: 60px;
+    width: 40px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    border: 30px solid white;
+    border-bottom:none;
+    top: 10px;
+    left:100px;
+    
+}
