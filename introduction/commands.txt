@@ -1,0 +1,25 @@
+pwd
+cd .
+cd ../
+ls
+mkdir file_name
+cd folder_name
+rm -rf directory_name
+rm directory_name
+mv file_name.extension destination
+touch index.html
+touch style.css
+touch commands.txt
+cd destination
+pwd
+git filename.extension
+
+new commands I searched up:
+echo
+cat >
+vim (is default in git Bash)
+ git add newfilename.extension
+git commit -m "Added newfilename"
+subl     newfile.txt// if you use sublime as your default code editor
+git  add newfile.txt//add to stage
+git commit          // commit to repositoey
