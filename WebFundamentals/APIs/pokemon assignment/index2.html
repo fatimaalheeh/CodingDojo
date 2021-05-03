@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8">
+<title>pokemons</title>
+<link rel="stylesheet" href="style2.css">
+ <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+    $(document).ready(function(){
+        for(var i=1;i<=150;i++)
+        {
+            var url = "https://pokeapi.co/api/v2/pokemon/" + i + "/";
+            $.get(url, function(res)
+            
+            {
+                $('#pokemons').append("<img src ='"+res.sprites.front_default + "' id='"+res.id+"'>"); //append: add after
+            },"json");
+            
+        }
+        $('#pokemons').on('click','img',function()
+        {
+            var id = $(this).attr("id");
+            var html="";
+            var html2="";
+            var html3="";
+            var url = "https://pokeapi.co/api/v2/pokemon/" + id + "/";
+            $.get(url,function(res)
+            {
+
+                html="<h2 class='card-title'>"+res.species.name+"</h2>";
+                html+="<img class='card-image' src='"+res.sprites.front_default+"'>";
+                html+="<h4>TYPES</h4>";
+                html+="<ul class='card'>";
+                    for(var j in res.types)
+                    {
+                        html+="<li>"+res.types[j].type.name+"</li>";
+                    }
+                    html+="</ul>";
+                    $("ul").css("list-style-position", "inside")
+                    html+="<h4 class='card-subtitle' >Height</h4>";
+                    html+=res.height;
+                    html+="<h4 class='card-subtitle' >Weight</h4>";
+                    html+=res.weight;
+                    html2+="<h4 class='card-title' >Moves</h4>";
+                    html2+="<ul>";
+                    for(var j in res.moves)
+                    {
+                        html2+="<li>"+res.moves[j].move.name+"</li>";
+                    }
+                    html2+="</ul>";
+                    html3+="<h4 class='card-title' >Gender</h4>";
+                    html3+="<ul>";
+                    html3+="<h4>Males</h4>";
+                    html3+="<li><img src='"+res.sprites.front_default+"'/></li>";
+                    html3+="<li><img src='"+res.sprites.back_default+"'/></li>";
+                    html3+="<li><img src='"+res.sprites.front_shiny+"'/></li>";
+                    html3+="<li><img src='"+res.sprites.front_shiny+"'/></li>";
+                    html3+="<h4>Females</h4>";
+                    html3+="<li><img src='"+res.sprites.front_female+"' alt ='no females'/></li>";
+                    html3+="<li><img src='"+res.sprites.back_female+"' alt ='no females'/></li>";
+                    html3+="<li><img src='"+res.sprites.front_shiny_female+"' alt ='no females'/></li>";
+                    html3+="<li><img src='"+res.sprites.back_shiny_female+"' alt ='no females'/></li>";
+                    
+                    
+                    
+                 
+                    html3+="</ul>";
+                    $('#pokedex').html(html);
+                    $('#details').html(html2);
+                    $('#images').html(html3);
+            },"json")
+          
+        }
+        )
+    }
+
+    )
+</script>
+</head>
+
+<body>
+    <div id="pokemons">
+        </div>
+        <div id="pokedex">
+            </div>
+            <div id="details"></div>
+            <div id="images"></div>
+
+</body>
+</html>
